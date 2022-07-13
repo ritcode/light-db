@@ -1,5 +1,5 @@
 {
-  "name": "light-db",
+  "name": "light-db-json",
   "version": "1.0.0",
   "description": "A lightweight and simple database which stores data in json file",
   "main": "index.js",

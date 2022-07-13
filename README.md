@@ -1,4 +1,4 @@
-# light-db
+# light-db-json
 
 A lightweight database for small scale projects, simple to use and deploy, uses json file to store data.
 
