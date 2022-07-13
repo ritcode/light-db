@@ -6,7 +6,7 @@ Installation
 ------------
 
 ```sh-session
-npm i light-db
+npm i light-db-json
 ```
 
 Description
@@ -19,7 +19,7 @@ Example Usage
 ### Database
 
 ```js
-const { Database } = require('light-db');
+const { Database } = require('light-db-json');
 const db = new Database();
 
 db.set('activeUsers', 1000);
@@ -45,7 +45,7 @@ db.toJSON(); // { activeUsers: 1000, admin: { username: 'ritcode' } }
 ### Collections
 
 ```js
-const { Database } = require('light-db');
+const { Database } = require('light-db-json');
 const db = new Database();
 
 const Developers = db.createCollection('developers');
