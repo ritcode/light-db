@@ -1,0 +1,25 @@
+{
+  "name": "light-db",
+  "version": "1.0.0",
+  "description": "A lightweight and simple database which stores data in json file",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ritcode/light-db.git"
+  },
+  "keywords": [
+    "db",
+    "json",
+    "nodejs",
+    "small-scale-db"
+  ],
+  "author": "Ritesh Kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ritcode/light-db/issues"
+  },
+  "homepage": "https://github.com/ritcode/light-db#readme"
+}
